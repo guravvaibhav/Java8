@@ -1,7 +1,9 @@
 package lamda;
 
 public class Test {
+	
 	public static void main(String[] args) {
+		
 
 	InterDemo1 i=()->{System.out.println("Shree !!");};   // object by using lambda expression
 	i.m();

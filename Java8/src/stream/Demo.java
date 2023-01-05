@@ -16,8 +16,8 @@ public class Demo {
 		List l= al.stream().sorted((i,j)->i.compareTo(j)).collect(Collectors.toList());	// sorting
 		System.out.println(l);
 		
-//		int large=al.stream().sorted((i,j)->j.compareTo(i)).findFirst().get();		// large num
-//		System.out.println(large);
+		int large=al.stream().sorted((i,j)->j.compareTo(i)).findFirst().get();		// large num
+		System.out.println(large);
 		
 		int small=al.stream().max((i,j)->i.compareTo(j)).get();		//// small num
 		System.out.println(small);
